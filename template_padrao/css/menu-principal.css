@@ -1,0 +1,37 @@
+/********************
+Componente menu-principal
+********************/
+.menu-principal {
+    background-color: #a12929
+    list-style-type: none;
+}
+
+.menu-principal > .lista {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a12929
+}
+
+.menu-principal > .lista > .item {
+    float: left;
+}
+
+
+
+.item a {
+    background-color: #a12929;
+    display: block;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    overflow: hidden;
+  }
+
+
+
+.lista a:hover {
+    background-color: black;
+}

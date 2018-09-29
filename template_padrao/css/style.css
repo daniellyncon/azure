@@ -1,0 +1,52 @@
+/********************
+Arquivo de estilos base do site
+  - Importação de folha de estilo de normalização (normalize.css)
+  - Importação de componentes do site
+  - Definição dos elementos estruturantes do site
+********************/
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css";
+@import "menu-principal.css";
+@import "form-pesquisa.css";
+@import "destaque-artigo.css";
+@import "box-rodape.css";
+
+.cabecalho {
+  display: inline;
+}
+
+#logo {
+  height: 94;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color:rgb(97, 205, 212);
+  height: 100%;
+  background-image: url(img/logo.jpg)
+}
+
+rodape {
+  background-color: rgb(146, 88, 0);
+}
+
+.conteudo .tabela-links {
+  background-color: #a12929;
+}
+
+.conteudo {
+  display: block;
+  background-color: beige;
+  box-decoration-break: inherit;
+  border: 5px solid gray;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+img {
+  width: 350px;
+  height: 250px;
+}
+

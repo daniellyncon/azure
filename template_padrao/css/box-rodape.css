@@ -1,0 +1,34 @@
+/********************
+Componente box-rodape
+********************/
+.box-rodape {
+    background-color: #80bbeb; 
+    color: white;
+    text-align: center;
+    float: right;
+    width: 100%;
+    height: 150px;
+    border: 5px solid #a12929;
+    
+}
+
+.box-rodape > .float-div {
+    color: black;
+    padding: 5px;
+    
+}
+
+.float-div {
+    float: left;
+    width: 30%;
+    height: 100px;
+}
+
+
+.box-rodape > .titulo {
+    color: blanchedalmond;
+}
+
+li {
+    list-style-type: none;
+}

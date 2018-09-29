@@ -1,0 +1,24 @@
+/********************
+Componente destaque-artigo
+********************/
+.destaque-artigo {
+    background-color: #a4b3ac;
+    display: block;
+    padding: 20px;
+    border: 10px solid #a12929;
+}
+
+#titulo {
+    color: brown;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.destaque-artigo > .texto {
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    border: 5px solid #a12929;
+    text-align: left;
+}
